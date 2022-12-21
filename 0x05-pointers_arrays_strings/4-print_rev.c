@@ -1,49 +1,19 @@
 #include "main.h"
 
 /**
+ * print_rev - This funcction prints a reverse string
  *
- *  * print_rev - prints a string to standard output in reverse form
- *
- *   * @s : the string variable to be printed
- *
- *    * Return: void
- *
- *     */
-
+ * @s: This is the input string
+ */
 void print_rev(char *s)
-
 {
+	int index;
 
-		int x;
-
-
-
-			int c = 0;
-
-
-
-				while (s[c] != '\0')
-
-						{
-
-									c++;
-
-										}
-
-					x = c - 1;
-
-
-
-						while (x >= 0)
-
-								{
-
-											_putchar(s[x]);
-
-													x--;
-
-														}
-
-							_putchar('\n');
-
+	for (index = 0; s[index] != '\0'; index++)
+		;
+	for (index = index - 1; s[index] != '\0'; index--)
+	{
+		_putchar(s[index]);
+	}
+	_putchar('\n');
 }
