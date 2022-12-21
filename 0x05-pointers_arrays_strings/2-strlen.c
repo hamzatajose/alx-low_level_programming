@@ -1,16 +1,12 @@
 #include "main.h"
 
 /**
+ *_strlen - function that returns the lenght of a string
  *
- *  * _strlen - returns the lenght of a string
+ * @s:this is the input string
  *
- *   * @s : the variable whose lenght is to be determined
- *
- *    *
- *
- *     * Return: the lenght of the input param
- *
- *      */
+ * Return:Lenght of string
+ */
 
 int _strlen(char *s)
 
