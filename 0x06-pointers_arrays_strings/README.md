@@ -1,1 +1,1 @@
-this is my 0-strcat.c
+This is my 1-strncat.c
