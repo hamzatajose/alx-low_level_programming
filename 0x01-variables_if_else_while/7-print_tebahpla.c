@@ -1,17 +1,16 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Use `putchar` function to print the alphabet in lowercase.
+ * Description: Print the alphabet in reverse order in lowercase.
  * Return: 0
  */
 int main(void)
 {
-	char c = 'a';
+	char c;
 
-	while (c <= 'z')
+	for (c = 'z'; c >= 'a'; c--)
 	{
 		putchar(c);
-		c++;
 	}
 	putchar('\n');
 
